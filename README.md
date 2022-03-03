@@ -1,0 +1,1 @@
+# Collection-Sidebar-on-Collections-All-page
