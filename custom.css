@@ -1,0 +1,189 @@
+/* Collection Sidebar  */
+.inner-page-collection .collection h3.card__heading.h5 {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.inner-page-collection span.price-item.price-item--regular {
+    font-size: 18px;
+}
+.left-wrap {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+
+.left-wrap ul#categories-cls {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.left-wrap ul#categories-cls li {
+    width: 100%;
+    list-style-type: none;
+    padding: 5px 20px;
+}
+
+
+
+.left-wrap ul#categories-cls li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+}
+
+.left-wrap ul#categories-cls li span {
+    width: 100%;
+    display: block;
+}
+
+.right-wrap {
+    padding-left: 40px;
+    width: 75%;
+    margin-top: 95px;
+    display: inline-block;
+}
+
+.left-wrap ul#categories-cls li ul li {
+    border-bottom: none;
+}
+
+
+
+.left-wrap .categories-card h4 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.categories-card {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+}
+
+.categories-card h4 {
+    padding: 10px 10px;
+    margin: 0;
+    background: #714f2a;
+    color: #fff;
+}
+
+.categories-card ul#categories-cls {
+    margin: 0;
+    padding: 11px 0px;
+}
+
+.left-wrap ul#categories-cls li ul {
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.left-wrap ul#categories-cls li ul li {
+    padding: 0px 20px;
+}
+
+.left-wrap ul#categories-cls li ul li a\ {
+    font-size: 15px;
+}
+
+
+.collection ul#product-grid {
+    width: 79%;
+    float: left;
+}
+
+.pagination-wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+nav.pagination {
+    text-align: center;
+}
+
+nav.pagination ul.pagination__list.list-unstyled {
+    float: right;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav.pagination ul.pagination__list.list-unstyled li {
+    display: inline-block;
+}
+
+nav.pagination ul.pagination__list.list-unstyled li {
+    border: none;
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    flex: inherit;
+    width: auto;
+    font-size: 17px;
+}
+
+nav.pagination ul.pagination__list.list-unstyled li .pagination__item {
+    height: auto;
+    display: inline-block;
+    width: auto;
+    font-size: inherit;
+}
+
+nav.pagination ul.pagination__list.list-unstyled li .pagination__item::after {
+    display: none;
+}
+
+nav.pagination svg.icon.icon-caret {
+    width: 17px;
+    height: 11px;
+}
+
+span.pagination__item.pagination__item--current {
+    color: #714f2a;
+}
+.collection-hero {
+    background: url("https://cdn.shopify.com/s/files/1/0619/6310/8607/files/fresh-coffee-beans.jpg?v=1641528104");
+    height: 290px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+}
+
+.collection-hero .collection-hero__inner {
+    height: 100%;
+}
+
+.collection-hero .collection-hero__inner h1.collection-hero__title {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.facet-filters .select {
+    border: 1px solid #ececec;
+    padding: 11px 21px;
+}
+
+.facet-filters .select svg.icon.icon-caret {
+    right: 10px;
+}
+
+.product-count.light {
+    display: none;
+}
+
+form#FacetFiltersForm {
+    gap: 0 1.5rem;
+}
+/* Collection Sidebar  */
